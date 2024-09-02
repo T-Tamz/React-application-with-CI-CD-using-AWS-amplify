@@ -5,7 +5,8 @@ AWS Project Name: React application with CI/CD with GitHub
 This project involves building a simple React application that allows users to answer quiz questions. The tools I will be using to help me build this project are AWS Amplify, AWS Cognito, GitHub, and VS code. I followed a Tiny Technical Tutorials video on how this application was built.
 
 **Project Architecture:**
-![architecture!]{![alt text](layout.png)}
+![architecture!]{C:\Users\user\Documents\VScode\VScode general\React-application-with-CI-CD-using-AWS-amplify}
+
 **Steps in the Project:**
 
 **Step 1:** Setting up the environment and installing amplify CLI
