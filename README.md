@@ -4,7 +4,9 @@ AWS Project Name: React application with CI/CD with GitHub
 **Project description:**
 This project involves building a simple React application that allows users to answer quiz questions. The tools I will be using to help me build this project are AWS Amplify, AWS Cognito, GitHub, and VS code. I followed a Tiny Technical Tutorials video on how this application was built.
 
-**Project Architecture:**
+**Project Architecture:** 
+
+refer to --> architecture.png
 
 **Steps in the Project:**
 
@@ -19,19 +21,27 @@ This project involves building a simple React application that allows users to a
 -	Executed command “npx create-react-app my-quiz-app” to create the application with the name “my-quiz-app”, 
 -	Execute command “amplify init” to initialize app on AWS cloud under name “myquizapp”
  
+refer to --> image 1.png 
+
 **Step 3:** Adding Authentication using AWS Cognito
 -	Execute “amplify add auth” to add authentication using AWS cognito
 -	Select “Default configuration” and allow users to sign-in using Email
 -	Execute “amplify push” to build local backend I just created in the cloud
   
+refer to --> image 2.png
+  
 **Step 4:** Creating UI log in 
 -	On VScode I accessed “App.js” and replaced following code with code provided by “Tiny technical tutorials”
 -	Downloaded Amplify libraries by executing “npm install aws-amplify @aws-amplify/ui-react” to allow me to run the code
 -	Executed “npm start” to launch the website allowing me to create an account
+  
+refer to --> image 3.png
 
 **Step 5:** Adding code for quiz application, adding functionality
 -	Code for Quiz UI from “Tiny technical tutorials” added to new js file under “Quiz.js”
 -	Created customized quiz questions under “quizData.js” 
+
+refer to --> image 4.png
 
 **Step 6:** Pushing code into the GitHub Repository
 -	Create a new GitHub repository under name “amplify-cognito-quiz”
@@ -44,3 +54,5 @@ Problems:
 -	Went into Amplify and going into “Branches” and clicked th GitHub option; after linking account I selected my repository “amplify-cognito-quiz”
 -	Enabled full-stack CI/CD 
 -	Launched and deployed application on the cloud
+
+refer to --> image 5.png + image 6.png
